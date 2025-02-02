@@ -40,20 +40,24 @@
 
 ### 3. 运行项目
 1. 配置环境变量：
-   ```bash
-   cp .env.example .env
-   # 编辑.env文件填写Supabase和ollama配置
-   ```
+    ```bash
+    # 编辑.env文件填写相应配置
+    ```
 
-2. 启动Web UI：
-   ```bash
-   python webui.py
-   ```
+2. 运行爬虫：
+    ```bash
+    python crawl4ai.py
+    ```
 
-3. 运行爬虫示例：
-   ```bash
-   python examples/crawl_docs_sitemap.py
-   ```
+3. 启动Web UI：
+    ```bash
+    streamlit run webui.py
+    ```
+
+4. (可选) 运行爬虫示例：
+    ```bash
+    python examples/crawl_docs_sitemap.py
+    ```
 
 ## 项目结构
 ```
