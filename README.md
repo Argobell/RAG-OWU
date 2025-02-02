@@ -1,7 +1,7 @@
-# crawl4AI-agent
+# RAG-OWU
 
 ## 项目介绍
-crawl4AI-agent 是一个基于Python的网络爬虫代理，旨在从网站中提取结构化数据并生成嵌入向量。项目结合了ollama的本地LLM和嵌入模型，使用Supabase作为数据库存储，并通过uv进行依赖管理。
+使用 Pydantic AI、Ollama 和 Supabase 构建的智能文档爬虫和 RAG（检索增强生成）Agent。项目结合了ollama的本地LLM和嵌入模型，使用Supabase作为数据库存储，并通过uv进行依赖管理。
 
 ## 项目特点
 - 使用ollama本地模型进行数据处理和嵌入生成
